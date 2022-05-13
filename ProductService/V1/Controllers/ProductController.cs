@@ -15,22 +15,11 @@ namespace ProductService.V1.Controllers
     {
         private readonly IMapper _mapper;
         private readonly IMediator _mediator;
-        private readonly IProductRepository _productRepository;
 
-        public ProductController(IMapper mapper, IMediator mediator, 
-                                 IProductRepository productRepository)
+        public ProductController(IMapper mapper, IMediator mediator)
         {
             _mapper = mapper;
             _mediator = mediator;
-            _productRepository = productRepository;
-        }
-
-        [HttpGet]
-        [Route("products")]
-        public ActionResult GetAll()
-        {
-            var response = _productRepository.GetAll();
-            return Ok(response);
         }
 
         /// <summary>
@@ -44,18 +33,20 @@ namespace ProductService.V1.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [SwaggerResponse(StatusCodes.Status200OK, "Product retrieved correctly.", typeof(ProductDetailResponse))]
         [SwaggerResponse(StatusCodes.Status404NotFound, "Product id was not found")]
-        public async Task<ActionResult> GetById(int productId)
+        public async Task<ActionResult<ProductDetailResponse>> GetById(int productId)
         {
             var request = new GetProductRequest { Id = productId };
             
-            var response = await _mediator.Send(request);
+            var product = await _mediator.Send(request);
 
-            if(response == null)
+            if(product == null)
             {
                 return NotFound();
             }
-            
-            return Ok(_mapper.Map<ProductDetailResponse>(response));
+
+            var getByIdResponse = _mapper.Map<ProductDetailResponse>(product);
+
+            return Ok(getByIdResponse);
         }
 
         /// <summary>

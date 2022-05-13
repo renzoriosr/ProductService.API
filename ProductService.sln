@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService.Api", "ProductService\ProductService.Api.csproj", "{AB366EC8-FD5C-456D-B877-A320C8A6D1C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductService.Api", "ProductService\ProductService.Api.csproj", "{AB366EC8-FD5C-456D-B877-A320C8A6D1C2}"
 	ProjectSection(ProjectDependencies) = postProject
 		{30D72306-CB87-4C20-908D-0869ACB4AAD3} = {30D72306-CB87-4C20-908D-0869ACB4AAD3}
 		{823A95DA-F2D4-44BC-8395-859473CB3B03} = {823A95DA-F2D4-44BC-8395-859473CB3B03}
@@ -11,12 +11,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService.Api", "Produ
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{08EF23DD-DF2A-46E3-BFEB-28CAF3E57A67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService.Domain", "ProductService.Domain\ProductService.Domain.csproj", "{30D72306-CB87-4C20-908D-0869ACB4AAD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductService.Domain", "ProductService.Domain\ProductService.Domain.csproj", "{30D72306-CB87-4C20-908D-0869ACB4AAD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService.Infrastructure", "ProductService.Infrastructure\ProductService.Infrastructure.csproj", "{823A95DA-F2D4-44BC-8395-859473CB3B03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductService.Infrastructure", "ProductService.Infrastructure\ProductService.Infrastructure.csproj", "{823A95DA-F2D4-44BC-8395-859473CB3B03}"
 	ProjectSection(ProjectDependencies) = postProject
 		{30D72306-CB87-4C20-908D-0869ACB4AAD3} = {30D72306-CB87-4C20-908D-0869ACB4AAD3}
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{04A60B69-B755-49E7-B5CC-BCFBAB087406}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService.Api.Tests.Unit", "ProductService.Api.Tests.Unit\ProductService.Api.Tests.Unit.csproj", "{7292AF5C-F91D-45F7-851A-D87F41A32440}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +40,10 @@ Global
 		{823A95DA-F2D4-44BC-8395-859473CB3B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{823A95DA-F2D4-44BC-8395-859473CB3B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{823A95DA-F2D4-44BC-8395-859473CB3B03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7292AF5C-F91D-45F7-851A-D87F41A32440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7292AF5C-F91D-45F7-851A-D87F41A32440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7292AF5C-F91D-45F7-851A-D87F41A32440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7292AF5C-F91D-45F7-851A-D87F41A32440}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +52,7 @@ Global
 		{AB366EC8-FD5C-456D-B877-A320C8A6D1C2} = {08EF23DD-DF2A-46E3-BFEB-28CAF3E57A67}
 		{30D72306-CB87-4C20-908D-0869ACB4AAD3} = {08EF23DD-DF2A-46E3-BFEB-28CAF3E57A67}
 		{823A95DA-F2D4-44BC-8395-859473CB3B03} = {08EF23DD-DF2A-46E3-BFEB-28CAF3E57A67}
+		{7292AF5C-F91D-45F7-851A-D87F41A32440} = {04A60B69-B755-49E7-B5CC-BCFBAB087406}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4721E0C9-106C-4D55-AF47-DE43BE5DB21B}
