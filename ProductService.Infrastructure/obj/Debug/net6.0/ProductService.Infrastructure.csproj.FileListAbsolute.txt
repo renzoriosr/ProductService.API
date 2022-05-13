@@ -1,0 +1,15 @@
+C:\Users\renzo.rios\source\repos\ProductService\ProductService.Infrastructure\bin\Debug\net6.0\ProductService.Infrastructure.deps.json
+C:\Users\renzo.rios\source\repos\ProductService\ProductService.Infrastructure\bin\Debug\net6.0\ProductService.Infrastructure.dll
+C:\Users\renzo.rios\source\repos\ProductService\ProductService.Infrastructure\bin\Debug\net6.0\ProductService.Infrastructure.pdb
+C:\Users\renzo.rios\source\repos\ProductService\ProductService.Infrastructure\bin\Debug\net6.0\ProductService.Domain.dll
+C:\Users\renzo.rios\source\repos\ProductService\ProductService.Infrastructure\bin\Debug\net6.0\ProductService.Domain.pdb
+C:\Users\renzo.rios\source\repos\ProductService\ProductService.Infrastructure\obj\Debug\net6.0\ProductService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\renzo.rios\source\repos\ProductService\ProductService.Infrastructure\obj\Debug\net6.0\ProductService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\renzo.rios\source\repos\ProductService\ProductService.Infrastructure\obj\Debug\net6.0\ProductService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\renzo.rios\source\repos\ProductService\ProductService.Infrastructure\obj\Debug\net6.0\ProductService.Infrastructure.AssemblyInfo.cs
+C:\Users\renzo.rios\source\repos\ProductService\ProductService.Infrastructure\obj\Debug\net6.0\ProductService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\renzo.rios\source\repos\ProductService\ProductService.Infrastructure\obj\Debug\net6.0\ProductService.Infrastructure.csproj.CopyComplete
+C:\Users\renzo.rios\source\repos\ProductService\ProductService.Infrastructure\obj\Debug\net6.0\ProductService.Infrastructure.dll
+C:\Users\renzo.rios\source\repos\ProductService\ProductService.Infrastructure\obj\Debug\net6.0\refint\ProductService.Infrastructure.dll
+C:\Users\renzo.rios\source\repos\ProductService\ProductService.Infrastructure\obj\Debug\net6.0\ProductService.Infrastructure.pdb
+C:\Users\renzo.rios\source\repos\ProductService\ProductService.Infrastructure\obj\Debug\net6.0\ref\ProductService.Infrastructure.dll
