@@ -8,9 +8,6 @@ namespace ProductService.Domain.Extensions
     {
         public static IServiceCollection AddDomainServices(this IServiceCollection services, IConfiguration configuration)
         {
-            //services.Configure<CacheConfiguration>(configuration.GetSection("CacheConfiguration"));
-            //services.AddSingleton(new CacheConfiguration());
-
             return services;
         }
     }

@@ -20,13 +20,11 @@ namespace ProductService.Infrastructure.Extensions
                 opt.UseInMemoryDatabase("Test");
             });
 
-            /*services.AddScoped<IProductRepository, ProductRepository>();*/
             return services;
         }
 
         public static IServiceCollection AddInfrastructureServices(this IServiceCollection services, IConfiguration configuration)
         {
-            // TODO: use app settings to drive cache service implementation (noop, memory, redis)
             services.AddMemoryCache();
             services.AddScoped<ICacheService, CacheService>();
 
